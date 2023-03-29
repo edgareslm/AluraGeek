@@ -1,0 +1,11 @@
+.foot{
+    padding: 20px;
+    text-align: center;
+}
+
+.foot__author{
+    text-align: center;
+}
+.foot__date{
+    text-align: center;
+}

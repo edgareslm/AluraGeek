@@ -1,0 +1,12 @@
+.endboard__item{
+    margin: 0;
+}
+.endboard__item--logo{
+    flex-grow: 1;
+}
+.endboard__item--navmenu{
+    flex-grow: 1;
+}
+.endboard__item--contact{   
+    flex-grow: 3;
+}

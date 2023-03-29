@@ -1,0 +1,8 @@
+.endboard{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 10%;
+    background: var(--bkg-color-endborad);
+}

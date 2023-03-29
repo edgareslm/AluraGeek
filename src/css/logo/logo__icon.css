@@ -1,10 +1,10 @@
-.title__icon{
-    color:red;
-}
-.title__icon::before{
+.logo__icon::before{
     display: inline-block;
     position: relative;
-    top:3px;
+    padding:0;
+    margin: 0;
+    outline: none;
+    border-style: none;
     width: 2rem;
     height: 2rem;
     content: "";
@@ -12,5 +12,6 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-clip: border-box;
     filter: hue-rotate(50deg);
 }
