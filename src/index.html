@@ -5,22 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Week</title>
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="stylesheet" href="./css/title/title.css">
+    <link rel="stylesheet" href="./css/title/title__icon.css">
+
+
+    <link rel="stylesheet" href="./css/search/search.css">
+    <link rel="stylesheet" href="./css/search/search__input.css">
+    <link rel="stylesheet" href="./css/search/search__btn.css">
+    <link rel="stylesheet" href="./css/search/search__ico.css">
+
+    <link rel="stylesheet" href="./css/login/login.css">
+
+    <link rel="stylesheet" href="./css/banner.css">
+
+    <link rel="stylesheet" href="./css/slider/slider.css">
+    <link rel="stylesheet" href="./css/slider/slider__show.css">
+    <link rel="stylesheet" href="./css/slider/slider__card.css">
+    <link rel="stylesheet" href="./css/slider/slider__nav.css">
+    <link rel="stylesheet" href="./css/slider/slider__link.css">
+
+    <link rel="stylesheet" href="./css/card/card.css">
+    <link rel="stylesheet" href="./css/card/card__title.css">
+    <link rel="stylesheet" href="./css/card/card__info.css">
+    <link rel="stylesheet" href="./css/card/card__link.css">
+
+    <script src="./js/slideshow.js" async></script>
+
 </head>
 <body>
-    <header>
-        <h1 class="title">AluraWeed</h1>
-        <input type="search" class="search" placeholder="¿Que deseas buscar?">
-        <button class="search__btn"><i class="search__ico">B</i></button>
+    <header class="header">
+        <h1 class="title"><i class="title__icon"></i> AluraWeed</h1>
+        <div class="search">
+            <input type="search" class="search__input" placeholder="¿Que deseas buscar?">
+            <button class="search__btn"><i class="search__ico"></i></button>
+        </div>
         <a href="#" class="login">Login</a>
     </header>
     <div class="banner">
-        
+        <div class="slider">
+            <div class="slider__show">
+                <div id="slider1" class="slider__card slider__card--one">
+                    <div class="card">
+                        <h2 class="card__title">marzo promocional</h2>
+                        <p class="card__info">Productos selecionados con 33% de descuento</p>
+                        <a class="card__link" href="#">Ver consolas</a>
+                    </div>
+                </div>
+                <div id="slider2" class="slider__card slider__card--two">
+                    <div class="card">
+                        <h2 class="card__title">marzo promocional</h2>
+                        <p class="card__info">Productos selecionados con 33% de descuento</p>
+                        <a class="card__link" href="#">Ver consolas</a>
+                    </div>
+                </div>
+                <div id="slider3" class="slider__card slider__card--three">
+                    <div class="card">
+                        <h2 class="card__title">marzo promocional</h2>
+                        <p class="card__info">Productos selecionados con 33% de descuento</p>
+                        <a class="card__link" href="#">Ver consolas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__nav">
+                <a href="#slider1" class="slider__link"></a>
+                <a href="#slider2" class="slider__link"></a>
+                <a href="#slider3" class="slider__link"></a>
+            </div>
+        </div>
     </div>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
+    <main></main>
+    <footer></footer>
 </body>
 </html>

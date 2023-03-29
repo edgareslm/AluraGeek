@@ -1,0 +1,10 @@
+.slider__link{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #e82f2f;
+    border-radius: 100%;
+    filter: opacity(.3);
+}
+.slider__link:hover{
+    filter: opacity(1);
+}

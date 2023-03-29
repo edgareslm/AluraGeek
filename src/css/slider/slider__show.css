@@ -1,0 +1,8 @@
+.slider__show{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    /* scroll-behavior: smooth; */
+    position: relative;
+}

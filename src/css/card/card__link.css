@@ -1,0 +1,9 @@
+.card__link{
+    width: max-content;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-style: none;
+    outline-style: none;
+    background-color: #2A7AE4;
+    color: #FFF;
+}

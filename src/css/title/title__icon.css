@@ -1,0 +1,16 @@
+.title__icon{
+    color:red;
+}
+.title__icon::before{
+    display: inline-block;
+    position: relative;
+    top:3px;
+    width: 2rem;
+    height: 2rem;
+    content: "";
+    background-image: url(../../assets/icons/game.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: hue-rotate(50deg);
+}

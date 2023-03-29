@@ -1,0 +1,11 @@
+.search__ico{
+    color: red;
+}
+.search__ico::after{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-image: url("../../assets/icons/lupa.svg");
+    background-size: contain;
+}

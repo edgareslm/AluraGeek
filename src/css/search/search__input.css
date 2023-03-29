@@ -1,0 +1,7 @@
+.search__input{
+    flex-grow: 1;
+    background-color:none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}

@@ -1,0 +1,8 @@
+.search__btn{
+    background-color: #7770;
+    padding: 0;
+    border: none;
+}
+.search__btn:hover{
+    cursor: pointer;
+}
