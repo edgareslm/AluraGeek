@@ -1,0 +1,13 @@
+.category__list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    column-gap: 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    .category__list{
+       flex-wrap: wrap;
+    }
+}

@@ -4,3 +4,9 @@
     font-weight: normal;
     color: inherit;
 }
+
+@media screen and (max-width:480px) {
+    .navmenu__link{
+        text-align: center;
+    }
+}

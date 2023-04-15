@@ -1,5 +1,5 @@
 .search__ico{
-    color: red;
+    /* order:3; */
 }
 .search__ico::after{
     display: inline-block;

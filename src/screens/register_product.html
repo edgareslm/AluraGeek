@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Producto</title>
+    <script src="../js/registerProduct.js" async type="module"></script>
+
+    <link rel="stylesheet" href="../css/products.css">
+
+    <link rel="stylesheet" href="../css/index.css">
+
+    <link rel="stylesheet" href="../css/register_product/register-container.css">
+    <link rel="stylesheet" href="../css/register_product/register-product.css">
+    <link rel="stylesheet" href="../css/register_product/register-product__title.css">
+    <link rel="stylesheet" href="../css/register_product/register-product__submit.css">
+
+    <link rel="stylesheet" href="../css/inputs/input-container.css">
+    <link rel="stylesheet" href="../css/inputs/input.css">
+    <link rel="stylesheet" href="../css/inputs/input-label.css">
+    <link rel="stylesheet" href="../css/inputs/input-alert.css">
+    <link rel="stylesheet" href="../css/inputs/input-submit.css">
+
+</head>
+<body>
+    <div class="products">
+        <div class="register-container">
+            <form class="register-product" action="" enctype="multipart/form-data" autocomplete="on">
+                <h2 class="register-product__title">Agregar nuevo Producto</h2>
+                <!-- <input type="file" name="image" id="image" accept=".jpg,.png,.jpeg,.tiff"> -->
+                <div class="input-container">
+                    <input name="image" id="url-image" class="input" type="text" placeholder="URL-image"required data-url-image/>
+                    <label class="input-label" for="title">URL de la imagen</label>
+                    <span class="input-alert">Este campo es requerido</span>
+                </div>
+                <div class="input-container">
+                    <input name="category" id="category" class="input" type="text" placeholder="Categoria"required data-category/>
+                    <label class="input-label" for="title">Categoria</label>
+                    <span class="input-alert">Este campo es requerido</span>
+                </div>
+                <div class="input-container">
+                    <input name="title" id="title" class="input" type="text" placeholder="Nombre"required data-title/>
+                    <label class="input-label" for="title">Nombre del producto</label>
+                    <span class="input-alert">Este campo es requerido</span>
+                </div>
+                <div class="input-container">
+                    <input name="price" id="price" class="input" type="text" placeholder="Precio"required data-price/>
+                    <label class="input-label" for="title">Precio del producto</label>
+                    <span class="input-alert">Este campo es requerido</span>
+                </div>
+                <button class="register-product__submit" type="submit">Agregar producto</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

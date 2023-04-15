@@ -1,0 +1,18 @@
+.details{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+@media screen and (max-width:780px) {
+    .details{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .details{
+        flex-direction: column;
+        align-items: center;
+    }
+}

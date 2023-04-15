@@ -1,4 +1,4 @@
-.slider__card{
+.slider__item{
 
     position: relative;
 
@@ -22,12 +22,12 @@
 
 
 }
-.slider__card--one{
-    background-image: url(../../assets/images/slider1.png);
-}.slider__card--two{
-    background-image: url(../../assets/images/slider2.jpg);
-}.slider__card--three{
-    background-image: url(../../assets/images/slider3.jpg);
+.slider__item--one{
+    background-image: url(../../assets/banner/slider1.png);
+}.slider__item--two{
+    background-image: url(../../assets/banner/slider2.jpg);
+}.slider__item--three{
+    background-image: url(../../assets/banner/slider3.jpg);
 }
 
 /* @keyframes slide {

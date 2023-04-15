@@ -1,7 +1,21 @@
 .search__input{
     flex-grow: 1;
+    /* order: -1; */
     background-color:none;
     border: none;
     outline: none;
     overflow: hidden;
+}
+
+@media screen and (max-width:480px) {
+    .search__input{
+        position: absolute;
+        top:50px;
+        z-index: 10;
+        padding: 10px;
+        border: 1px solid #000;
+    }
+    .search__input--hidden{
+        display: none;
+    }
 }

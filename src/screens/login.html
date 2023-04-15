@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+
+    <link rel="stylesheet" href="../css/inputs/input.css">
+    <link rel="stylesheet" href="../css/inputs/input-container.css">
+    <link rel="stylesheet" href="../css/inputs/input-label.css">
+    <link rel="stylesheet" href="../css/inputs/input-alert.css">
+
+
+    <link rel="stylesheet" href="../css/login/login-container.css">
+    <link rel="stylesheet" href="../css/login/login.css">
+    <link rel="stylesheet" href="../css/login/login__title.css">
+    <link rel="stylesheet" href="../css/login/login__submit.css">
+
+</head>
+<body>
+    <div class="login-container">
+        <form action="" class="login">
+            <h2 class="login__title">Iniciar Sesión</h2>
+            <div class="input-container">
+                <input class="input" type="text" name="user" id="user" placeholder="ingresa tu usuario" required data-type="user">
+                <label class="input-label" for="user">Usuario</label>
+                <span class="input-alert">Este campo es requerido</span>
+            </div>
+            <div class="input-container">
+                <input class="input" type="text" name="password" id="password" placeholder="ingresa tu contraseña" required data-type="password">
+                <label class="input-label" for="user">Contraseña</label>
+                <span class="input-alert">Este campo es requerido</span>
+            </div>
+            <button class="login__submit" type="submit">Agregar producto</button>
+        </form>
+    </div>
+</body>
+</html>

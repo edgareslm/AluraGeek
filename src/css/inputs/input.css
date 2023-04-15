@@ -1,0 +1,44 @@
+.input{
+    padding-top: 1px;
+    order: 2;
+    width: 100%;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: var(--txt-color-first);
+    outline: none;
+    border-bottom: 2px solid var(--txt-color-second);
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2px 4px -2px #000000;
+    padding: 10px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+.input::placeholder{
+    visibility: hidden;
+    background: #ffffff00;
+    color: #00000000;
+}
+.input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label{
+    transform: translateY(.2rem);
+    font-size: 0.7rem;
+    font-weight: bold;
+    transition: all .25s;
+}
+
+.input--error{
+    border: 3px solid red;
+}
+
+.input--message{
+    padding-top: 10px;
+    resize: none;
+    line-height: 1rem;
+}
+
+.input--message::placeholder{
+    visibility: visible;
+    color:#000000;
+    filter: opacity(.8);
+}

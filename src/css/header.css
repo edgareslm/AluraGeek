@@ -5,5 +5,11 @@
     align-items: center;
     justify-items: end;
     padding: 10px 5%;
-    column-gap: 10px;
+    column-gap: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .header{
+        column-gap: 10%;
+    }
 }

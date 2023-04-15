@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "image": "./assets/images/unsplash_6FDXGY9J6y4.png",
+      "category": "Star Wars",
+      "title": "Producto XYZ",
+      "price": "60",
+      "id": "cfef81a5-ff0a-4ccf-8b07-94cb7efc15ec"
+    },
+    {
+      "image": "./assets/images/unsplash_epRFE_hBNjo.png",
+      "category": "Star Wars",
+      "title": "Producto XYZ",
+      "price": "60",
+      "id": "f0d8c7ee-bf96-4daf-84c2-b1c5d26cdb82"
+    },
+    {
+      "image": "./assets/images/unsplash_KeGToDVN0l4.png",
+      "category": "Star Wars",
+      "title": "Producto XYZ",
+      "price": "80.50",
+      "id": "403ad4da-50ae-4f6a-a2e5-2d28201f963d"
+    },
+    {
+      "image": "./assets/images/unsplash_4OHkK555s1A.png",
+      "category": "Star Wars",
+      "title": "Producto XYZ",
+      "price": "75.78",
+      "id": "343d7179-5bd7-4b8f-a7c1-345d35bea2ec"
+    },
+    {
+      "image": "./assets/images/unsplash_R8L1l9RN198.png",
+      "category": "Star Wars",
+      "title": "Producto XYZ",
+      "price": "45.23",
+      "id": "a7a92788-3425-443d-a979-5526c4ee6b46"
+    },
+    {
+      "image": "./assets/images/unsplash_1VV1MRafd7A.png",
+      "category": "Star Wars",
+      "title": "Producto XYZ",
+      "price": "120",
+      "id": "a34b2b67-4d4c-492e-8416-1dc6e8628e34"
+    },
+    {
+      "image": "./assets/images/unsplash_epRFE_hBNjo.png",
+      "category": "Star Wars",
+      "title": "Producto XYZ",
+      "price": "40",
+      "id": "d986272d-7624-498f-bfe2-0e0555c9469a"
+    },
+    {
+      "image": "./assets/images/unsplash_0POwK6iAiRQ.png",
+      "category": "Consolas",
+      "title": "Control XYZ",
+      "price": "150",
+      "id": "425cc441-d9b2-49b7-a2be-80f97704f9f1"
+    },
+    {
+      "image": "./assets/images/unsplash_caNzzoxls8Q.png",
+      "category": "Consolas",
+      "title": "Consola XYZ",
+      "price": "2000",
+      "id": "803cda68-5048-43c8-8b63-75c53e195932"
+    },
+    {
+      "image": "./assets/images/unsplash_wa5z9o9fgjw.png",
+      "category": "Consolas",
+      "title": "Mando adatable XYZ",
+      "price": "95.34",
+      "id": "01ca7556-1c9b-4e9e-a748-79a3dae6056b"
+    },
+    {
+      "image": "./assets/images/unsplash_ZV7lnfyQLmA.png",
+      "category": "Consolas",
+      "title": "Consola retro XYZ",
+      "price": "1200",
+      "id": "17160984-372d-4278-9d66-08e7609c60e8"
+    },
+    {
+      "image": "./assets/images/unsplash_Zjn4dT993-g.png",
+      "category": "Consolas",
+      "title": "Consola XYZ X",
+      "price": "5000",
+      "id": "3783c128-985f-4bdf-8f32-b3dde7c2c731"
+    },
+    {
+      "image": "./assets/images/unsplash_k-xYhI3-gJM.png",
+      "category": "Consolas",
+      "title": "Game Boy Color",
+      "price": "804",
+      "id": "19dc4e07-257b-4b12-80f5-525b469f41a0"
+    },
+    {
+      "image": "./assets/images/unsplash_0POwK6iAiRQ.png",
+      "category": "Consolas",
+      "title": "Mando XYZ",
+      "price": "300",
+      "id": "e593e8cc-ee61-46e3-892d-a6131d270512"
+    },
+    {
+      "image": "./assets/images/unsplash_bUgaIaZysH0.png",
+      "category": "Diversos",
+      "title": "Camisa Atari",
+      "price": "120",
+      "id": "f6966f18-9fcd-4545-902b-1d48046ec7e9"
+    },
+    {
+      "image": "./assets/images/unsplash_fMP-oCze3AY.png",
+      "category": "Diversos",
+      "title": "Camisa SNES",
+      "price": "100",
+      "id": "8913f196-1fab-451d-b2cf-b605c92877be"
+    },
+    {
+      "image": "./assets/images/unsplash_jMT6BrgBuXU.png",
+      "category": "Diversos",
+      "title": "Control y consola XYZ",
+      "price": "210",
+      "id": "cf97d06e-6b50-4e82-b837-cd2af94015da"
+    },
+    {
+      "image": "./assets/images/unsplash_r27umXAelDc.png",
+      "category": "Diversos",
+      "title": "Producto XYZ",
+      "price": "87",
+      "id": "f1525deb-02ce-4933-9fcd-3584ebafe298"
+    },
+    {
+      "image": "./assets/images/unsplash_MxVkWPiJALs.png",
+      "category": "Diversos",
+      "title": "Control y consola XYZ",
+      "price": "230",
+      "id": "5023daaf-ce73-42a0-9a14-230c39e5440c"
+    },
+    {
+      "image": "./assets/images/unsplash_sYVY_ZKwaxU.png",
+      "category": "Diversos",
+      "title": "Figura sonic",
+      "price": "20",
+      "id": "2d6ad115-9329-40dd-bfb4-fe612f4920f3"
+    }
+  ]
+}

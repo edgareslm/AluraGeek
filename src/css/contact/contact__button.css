@@ -1,3 +1,15 @@
 .contact__button{
     padding: 10px;
 }
+.contact__button:disabled{
+    opacity: .6;
+}
+
+.contact__button:hover:not(:disabled){
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.contact__button:active:not(:disabled){
+    transform: scale(0.9);
+}

@@ -6,3 +6,12 @@
     column-gap: 10%;
     background: var(--bkg-color-endborad);
 }
+
+@media screen and (max-width: 480px) {
+    .endboard{
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 10px;
+        align-items: stretch;
+    }
+}

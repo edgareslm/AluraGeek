@@ -1,0 +1,12 @@
+.input-alert{
+    display: none;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: red;
+    order: 3;
+}
+
+.input-alert--active{
+    display: block;
+}

@@ -1,9 +1,17 @@
 .search{
-    /* width: 80%; */
     justify-self: start;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     border: 2px solid black;
     border-radius: 20px;
     padding: 5px 10px;
+    position: relative;
+}
+
+@media screen and (max-width:480px) {
+    .search{
+        border-style: none;
+        order: 6;
+    }
 }

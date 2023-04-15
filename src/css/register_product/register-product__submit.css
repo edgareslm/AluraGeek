@@ -1,0 +1,17 @@
+.register-product__submit{
+    align-self: stretch;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #2A7AE4;
+    color: #FFF;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.register-product__submit:hover{
+    cursor: pointer;
+    transform: scaleY(1.1);
+    filter: opacity(.9);
+    transition: all .2ms ease-in-out;
+}

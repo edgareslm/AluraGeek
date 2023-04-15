@@ -1,12 +1,26 @@
 .endboard__item{
     margin: 0;
 }
-.endboard__item--logo{
+
+.endboard__item:first-child{
     flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
-.endboard__item--navmenu{
-    flex-grow: 1;
-}
-.endboard__item--contact{   
+.endboard__item:last-child{
     flex-grow: 3;
+}
+
+@media screen and (max-width: 780px) {
+    .endboard__item:first-child{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .endboard__item:first-child{
+        align-items: center;
+    }
 }
